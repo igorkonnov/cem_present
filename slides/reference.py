@@ -21,7 +21,7 @@ content = html.Div(style=dict(textAlign='center'),children=[
        html.A("6.Chemistry cement and concrete.", href ='https://play.google.com/books/reader?id=v1JVu4iifnMC&pg=GBS.PP1', className='row'),
        html.A("7.Because Data is the new oil and gold, I don't share the dataset :(",
        href ='https://www.hindustantimes.com/india-news/data-is-the-new-oil-new-gold-says-pm-modi-in-houston/story-SphHDPQadvF1dJRMXHCkwK.html',className='row'),
-       html.A("BR Konnov I, className='row'")
+       html.A("BR Konnov I", className='row')
 
 
 
