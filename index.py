@@ -257,10 +257,11 @@ def update_slide_count(current_slide):
 # -----------------------------------
 
 if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 8052))
     app.run_server(
-        port=8052,
-        host='localhost',
-        debug=True,
+        host='0.0.0.0',
+        port=port,
+        debug=True,  # Set to False in production
         dev_tools_ui=True,
         dev_tools_props_check=True
     )
