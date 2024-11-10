@@ -82,7 +82,7 @@ html.Div(
                 [
                     html.P("How to Improve the “Accuracy” of a Machine Learning Model"),
                     html.P("1. Increase the Number of Predictors: Adding more relevant predictors can improve accuracy, but it’s crucial to avoid or remove multicollinearity, as highly correlated predictors can degrade model performance. Keep in mind that more predictors generally require a larger dataset to prevent overfitting and capture meaningful patterns."),
-                    html.P("2. Cement PSD analysis can significantly enhance the accuracy of predictions by identifying key frequency components, especially in time-series data."),
+                    
                     html.P("3. Ensure High-Quality Data: The quality of data is essential for model performance. Poor-quality data will lead to unreliable predictions, often summarized by the phrase 'garbage in, garbage out.'"),
                     html.P("4. Bigger Dataset = Better Predictions: As a rule of thumb, a larger dataset allows for better predictions, especially when the number of predictors is high. For reliable results, aim for at least 10 times more data points than predictors, and ideally, 20-30 times as many to achieve robust predictions."),
                     html.P("5. Consider Additional Irregular Parameters: Including additional variables such as outdoor temperature, water injection rates, and the percentage of open storage clinker can help capture real-world variability, often leading to improved prediction quality."),
