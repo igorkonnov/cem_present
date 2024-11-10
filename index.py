@@ -261,7 +261,7 @@ if __name__ == '__main__':
     app.run_server(
         host='0.0.0.0',
         port=port,
-        debug=True,  # Set to False in production
+        debug=False,  # Set to False in production
         dev_tools_ui=True,
         dev_tools_props_check=True
     )
