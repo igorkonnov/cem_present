@@ -80,7 +80,7 @@ html.Div(
         dbc.Card(
             dbc.CardBody(
                 [
-                    html.P("How to Improve the “Accuracy” of a Machine Learning Model"),
+                    #html.P("How to Improve the “Accuracy” of a Machine Learning Model"),
                     html.P("1. Increase the Number of Predictors: Adding more relevant predictors can improve accuracy, but it’s crucial to avoid or remove multicollinearity, as highly correlated predictors can degrade model performance. Keep in mind that more predictors generally require a larger dataset to prevent overfitting and capture meaningful patterns."),
                     
                     html.P("3. Ensure High-Quality Data: The quality of data is essential for model performance. Poor-quality data will lead to unreliable predictions, often summarized by the phrase 'garbage in, garbage out.'"),
